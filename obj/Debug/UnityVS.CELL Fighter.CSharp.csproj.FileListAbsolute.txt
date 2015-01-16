@@ -1,0 +1,9 @@
+C:\Users\Allen\Desktop\Unity\Projects\CELL Fighter\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Allen\Desktop\Unity\Projects\CELL Fighter\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Allen\Desktop\Unity\Projects\CELL Fighter\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Allen\Desktop\Unity\Projects\CELL Fighter\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Allen\Desktop\Unity\Projects\CELL Fighter\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Allen\Desktop\Unity\Projects\CELL Fighter\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Allen\Desktop\Unity\Projects\CELL Fighter\obj\Debug\UnityVS.CELL Fighter.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Allen\Desktop\Unity\Projects\CELL Fighter\obj\Debug\Assembly-CSharp.dll
+C:\Users\Allen\Desktop\Unity\Projects\CELL Fighter\obj\Debug\Assembly-CSharp.pdb

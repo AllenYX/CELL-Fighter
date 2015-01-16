@@ -1,0 +1,60 @@
+State  -1: Level Complete Sign	 
+	   Go to next level after delay
+
+----------------|
+TUTORIAL PLANT 1|
+----------------|
+
+State 	0: Spawn water (GameController)
+	   Lock camera (GameController)
+	   Pause Time (GameController)
+		Next State = auto
+	1: Controls info (GUIController)
+	   	Next State = press continue
+	2: Cell membrane info (GUIController) 
+		Next State = press continue
+	3: Cell wall info (GUIController)
+		Next State = press continue
+	4: Unlock camera (GameController)
+	   Unpause Time (GameController)
+		Next State = auto
+	5: Switch view info (GUI/GameController)
+		Next State = switch inner view (space)
+	6: Vacuole info (GUIController)
+	   Lock camera (GameController)
+		Next State = press continue
+	7: Cytolysis info (GUIController)
+		Next State = press continue
+	8: Collect water task (GUI/GameController)
+	   Unlock camera (GameController)
+		Level Complete = finish collect water task
+
+----------------|
+TUTORIAL PLANT 2|
+----------------|
+
+State 	0: ATP info (GUIController)
+	   Lock camera (GameController)
+		Next State = press continue
+	1: ATP uses info (GUIController)
+	   Unlock camera (GameController)
+		Next State = switch inner view (space)
+		Spawn water (GameController)
+	2: Chloroplast info (GUIController)
+	   Photosynthesis info (GUIController)
+		Next State = press continue
+	3: Drag water to chloroplast task (GUI/GameController)
+		Next State = finish drag water task
+	4: Photosynthesis task
+		Next State = finish photosynthesis task
+	5: Glucose info (GUIController)
+	   Cellular respiration info (GUIController)
+	   Mitochondria info (GUIController)
+		Next State = press continue
+	6: Cellular respiration task (GUI/GameController)
+		Level Complete = finish respiration task
+
+
+
+
+

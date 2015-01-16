@@ -1,0 +1,5 @@
+ExistingData		-Whether saved data exists
+CellType		-None = has not chosen cell(character) yet
+PlantTutorialLevel	-Highest completed level
+PlantGameLevel
+PreviousLevel

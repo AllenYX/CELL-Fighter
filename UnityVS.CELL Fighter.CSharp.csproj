@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CD331CAA-9D78-B1BC-6200-9A927DE0AEEC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>4.3.4f1</UnityVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_4;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Scripts\AudioController.cs" />
+    <Compile Include="Assets\Scripts\CameraAspect.cs" />
+    <Compile Include="Assets\Scripts\CharacterSelectController.cs" />
+    <Compile Include="Assets\Scripts\ExitToMenuButton.cs" />
+    <Compile Include="Assets\Scripts\GUIController.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\GameOverController.cs" />
+    <Compile Include="Assets\Scripts\HUD\AttackHUD.cs" />
+    <Compile Include="Assets\Scripts\HUD\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\HUD\PercentBarHorizontal.cs" />
+    <Compile Include="Assets\Scripts\HUD\ShieldBar.cs" />
+    <Compile Include="Assets\Scripts\HUD\Sunlight.cs" />
+    <Compile Include="Assets\Scripts\In-Game Objects\AnimationWaterDeath.cs" />
+    <Compile Include="Assets\Scripts\In-Game Objects\CollideDamagable.cs" />
+    <Compile Include="Assets\Scripts\In-Game Objects\CollideWater.cs" />
+    <Compile Include="Assets\Scripts\In-Game Objects\DestroyByBoundary.cs" />
+    <Compile Include="Assets\Scripts\In-Game Objects\DestroyByTime.cs" />
+    <Compile Include="Assets\Scripts\In-Game Objects\Mover.cs" />
+    <Compile Include="Assets\Scripts\LevelSelectController.cs" />
+    <Compile Include="Assets\Scripts\LightController.cs" />
+    <Compile Include="Assets\Scripts\MenuController.cs" />
+    <Compile Include="Assets\Scripts\PauseController.cs" />
+    <Compile Include="Assets\Scripts\Player\Attacks\AttackController.cs" />
+    <Compile Include="Assets\Scripts\Player\Attacks\WaterAttack.cs" />
+    <Compile Include="Assets\Scripts\Player\Cell.cs" />
+    <Compile Include="Assets\Scripts\Player\CellController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\CellMembraneController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\CellWallController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\ChloroplastController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\CytoplasmController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\EndoplasmicRoughController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\EndoplasmicSmoothController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\GolgiApparatusController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\MitochondriaController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\NucleolusController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\NucleusController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\OrganelleController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\OrganellePausedBobble.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\PlantVacuoleController.cs" />
+    <Compile Include="Assets\Scripts\Player\Organelles\RibosomeController.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\SideScroller.cs" />
+    <Compile Include="Assets\Scripts\SpawnController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Scripts\_Script Info\Game Controller States.txt" />
+    <None Include="Assets\Scripts\_Script Info\PlayerPrefs.txt" />
+    <None Include="Assets\Scripts\_Script Info\Static Variables.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
+</Project>
